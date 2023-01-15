@@ -1,0 +1,39 @@
+@media screen and (max-width:576px){
+    #header{
+        padding:30px 20px;
+    }
+    .top-header{
+        display:block;
+    }
+    .header-logo .logo-title{
+        text-align:center;
+        margin-bottom:30px;
+    }
+    .nav ul li{
+        float:none;
+        text-align:center;
+    }
+    .nav ul li a{
+        display:block;
+        padding:10px 0px;
+    }
+    .middle-header{
+        margin-top:30px;
+    }
+    .middle-header-title{
+        font-size:45px;
+        font-weight:600;
+        text-align:center;
+        margin-bottom:20px;
+    }
+    middle-header-text{
+        text-align:justify;
+    }
+    .middle-header-btn{
+        margin-bottom:50px;
+    }
+    .header-banner img{
+        width:100%;
+        height:auto;
+    }
+}

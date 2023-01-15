@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* all body font family */
+body{
+    font-family: 'Work Sans', sans-serif
+}
+/* design header logo part */
+#header{
+    background-color:#FFF4E7;
+    padding:50px 150px; 
+}
+.top-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-logo{
+
+}
+.header-logo .logo-title{
+    font-size:45px;
+    color:#131313;
+    font-weight:700;
+}
+/* design header nav part */
+.nav{
+    
+}
+.nav ul{
+    list-style-type:none;
+}
+.nav ul li{
+    display:block;
+    float:left;
+}
+.nav ul li a{
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    color:#424242;
+    padding:0px 30px;
+    cursor:pointer;
+    position:relative;
+}
+
+.nav ul li a:hover{
+    color:#FF900E;
+    transition:all 0.4s linear;
+}
+/* design header middle text part */
+.middle-header{
+    margin-top:200px;
+}
+.middle-header-title{
+    text-align:center;
+    font-weight:700;
+    font-size:64px;
+    color:#131313;
+    margin-bottom:50px;
+}
+.middle-header-text{
+    text-align:center;
+    font-size:16px;
+    font-weight:400;
+    color:#727272;
+    margin-bottom:30px;
+}
+/* design header button part */
+.middle-header-btn{
+    display:block;
+    margin:0px auto;
+    background-color:#FF900E;
+    font-size:20px;
+    font-weight:500;
+    color:#ffffff;
+    border-radius:10px;
+    padding:20px 25px;
+    border:none;
+    cursor:pointer;
+    margin-bottom:100px;
+}
+.middle-header-btn:hover{
+    background-color:#000;
+    color:#fff;
+    border:1px solid red;
+    transition:all 0.4s ease;
+}
+
+/* design header banner part */
+.header-banner img{
+    width:100%;
+    height:auto;
+   
+}
+/* End header section design */
+
+
+
+
+
