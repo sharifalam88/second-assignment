@@ -96,7 +96,237 @@ body{
 }
 /* End header section design */
 
+/* Start top feature section design */
+#top-section-feature{
+    padding:50px 160px;
+    display:flex;
+    gap:24px;
+    align-items:center;
+}
+.left-inner-section{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:20px;
+}
+.left-inner-section img{
+    width:342px;
+    height:342px;
+}
+/* End left inner section design */
 
+/* Start right inner section design */
+.right-inner-section{
+
+}
+.inner-section-title{
+    font-weight:800;
+    color:#000;
+    text-align:left;
+    margin-bottom:30px;
+}
+.inner-section-title .quick-list{
+    color:#727272;
+    font-weight:510;
+}
+.inner-section-title .feature{
+    color:#FF900E;
+    font-weight:800;
+}
+.inner-section-text{
+    font-weight:400;
+    color:#727272;
+    font-size:16px;
+    margin-bottom:30px;
+}
+.inner-section-btn{
+    background-color:#FF900E;
+    font-size:20px;
+    font-weight:500;
+    color:#ffffff;
+    border-radius:10px;
+    padding:20px 25px;
+    border:none;
+    cursor:pointer;
+}
+.inner-section-btn:hover{
+    background-color:#000;
+    color:#fff;
+    transition:all 0.4s ease;
+}
+/* End top section feature design */
+
+
+/* Strat middle section design  */
+#middle-section{
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+    padding:30px 110px;
+}
+.left-middle-section{
+    margin-top:20px;
+    background-color:#F9F9F9;
+}
+.love-and-enjoy{
+    background-color:#FFFFFF;
+}
+.middle-section-title{
+    font-weight:700;
+    font-size:40px;
+    color:#131313;
+    border-left:7px solid #FF900E;
+    padding:0px 20px;
+    margin-bottom:30px;
+}
+.middle-section-text{
+    font-weight:400;
+    color:#727272;
+    font-size:16px;
+    padding:20px 0px;
+    margin-bottom:30px;
+}
+.middle-section-inner{
+    background-color:#FFFFFF;
+    padding:25px 15px;
+    margin-bottom:30px;
+    border-radius:5px;
+}
+.middle-section-inner-title{
+    font-weight:600;
+    color:#131313;
+    font-size:20px;
+    margin-bottom:20px;
+} 
+.middle-section-inner-text{
+    font-weight:400;
+    font-size:16px;
+    color:#727272;
+}
+.middle-section-inner-btn{
+    background-color:#FF900E;
+    color:#ffffff;
+    border:none;
+    font-weight:400;
+    font-size:16px;
+    padding:30px 20px;
+    margin-top:-50px;
+    border-radius:5px;
+}
+.middle-section-inner-btn .button-style{
+    font-weight:700;
+    font-size:45px;
+}
+/* End middle section */
+
+
+/* Start fact section */
+#fact-section{
+    padding:50px 150px;
+}
+.content-area{
+    margin-bottom:50px;
+    width:500px;
+}
+.fact-section-title{
+    font-weight:700;
+    color:#131313;
+    font-size:45px;
+    margin-bottom:20px;
+}
+.fact-section-text{
+    font-weight:400;
+    color:#727272;
+    font-size:16px;
+    margin-bottom:50px;
+}
+/* design content counter */
+.content-counter{
+    display:flex;
+    justify-content:space-between;
+    margin:0px 30px;
+}
+.counter-box{
+    border:1px solid #FF900E;
+    text-align:center;
+    border-radius:5px;
+    padding:50px 30px;
+}
+.counter-box img{
+    width:45px;
+    height:45px;
+}
+.counter-box .counter-box-title{
+    font-weight:600;
+    font-size:45px;
+    color:#424242;
+}
+.counter-box .counter-box-text{
+    font-weight:600;
+    font-size:20px;
+    color:#727272;
+}
+/* Start sponsors section design */
+
+#sponsor-section{
+    padding:50px 150px;
+}
+.sponsor-content-area{
+    margin-top:20px;
+    margin-bottom:30px;
+    width:542px;
+    margin:0px auto;
+}
+.sponsor-content-title{
+    text-align:center;
+    font-weight:700;
+    font-size:45px;
+    color:#131313;
+    margin-bottom:30px;
+}
+.sponsor-content-text{
+    font-weight:400;
+    font-size:16px;
+    color:#727272;
+    text-align:center;
+    margin-bottom:30px;
+}
+/* End top sponsor area design */
+
+.sponsor{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    margin-top:30px;
+}
+.sponsor .frist-img{
+    width:100%;
+    height:auto;
+   background:#eeeeee;
+    margin-right:20px;
+    opacity:0.8;
+}
+.sponsor .frist-img img{
+    mix-blend-mode:luminosity;
+}
+/* End sponsor section design */
+
+/* Start footer design */
+#footer{
+    margin:0px auto;
+    margin-top:50px;
+    margin-bottom:200px;
+    width:960px;
+    background-color:#FFF4E7;
+}
+.footer-text{
+    font-size:20px;
+    font-weight:400;
+    color:#424242;
+    text-align:center;
+    padding:20px 15px;
+}
+/* complete design */
 
 
 
