@@ -115,9 +115,7 @@ body{
 /* End left inner section design */
 
 /* Start right inner section design */
-.right-inner-section{
 
-}
 .inner-section-title{
     font-weight:800;
     color:#000;
@@ -318,6 +316,7 @@ body{
     margin-bottom:200px;
     width:960px;
     background-color:#FFF4E7;
+    border-radius:5px;
 }
 .footer-text{
     font-size:20px;

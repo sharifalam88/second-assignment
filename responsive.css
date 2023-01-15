@@ -36,4 +36,92 @@
         width:100%;
         height:auto;
     }
+    #top-section-feature{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr);
+        padding:50px 30px;
+    }
+   
+    .left-inner-section{
+        display:grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    .left-inner-section img{
+        width:100%;
+        height:auto;
+    }
+    .inner-section-title, .inner-section-text{
+        text-align:center;
+    }
+    .inner-section-btn{
+        display:block;
+        margin:0px auto;
+    }
+    /* responsive middle section */
+    #middle-section{
+        display:block;
+        padding:40px 30px;
+    }
+    .right-inner-section img{
+        width:100%;
+        height:auto;
+    }
+    .middle-section-inner-btn{
+        display:block;
+        margin:0px auto;
+        margin-top:20px;
+        padding:20px 15px;
+        font-weight:500;
+        font-size:18px;
+    }
+    .middle-section-inner-btn .button-style{
+        font-weight:600;
+        font-size:35px;
+    }
+    /* Start fact section */
+    #fact-section{
+        padding:50px 30px;
+    }
+    .content-area{
+        width:100%;
+    }
+    .fact-section-title .fact-section-text{
+        text-align:center;
+    }
+    .content-counter{
+        display:block;
+    }
+    .counter-box{
+        margin-bottom:30px;
+    }
+    /* design sponsor section */
+    #sponsor-section{
+        padding:50px 30px;
+    }
+    .sponsor-content-area{
+        text-align:center;
+        width:100%;
+    }
+    
+    .sponsor{
+        display:block;
+    }
+    .sponsor .frist-img{
+        margin-bottom:30px;
+        background:none;
+    }
+    .sponsor .frist-img img{
+        mix-blend-mode:normal;
+        margin-left:35%;
+    }
+    /* responsive design for footer */
+    #footer{
+        width:100%;
+        background-color:#FFF4E7;
+    }
+    .footer-text{
+        text-align:center;
+    } 
 }
+
+/* complete responsive for small devices */
